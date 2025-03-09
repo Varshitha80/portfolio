@@ -3,13 +3,13 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: "./",
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     rollupOptions: {
       input: {
-        main: './index.html',
-        404: './404.html' // Create this file
+        main: "./index.html",
+        404: "./public/404.html" // 👈 Add public/ prefix
       }
     }
   }

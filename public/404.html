@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <title>Redirecting...</title>
     <script>
-      sessionStorage.redirect = location.href;
-      location.replace(location.origin);
+      // Preserve route then redirect
+      sessionStorage.redirect = location.href.split('/').pop();
+      window.location.replace(window.location.origin);
     </script>
   </head>
-  <body></body>
+  <body>
+    Redirecting...
+  </body>
 </html>

@@ -84,7 +84,7 @@ export default function About() {
                   Let's Collaborate
                 </a>
                 <a 
-                  href="https://drive.google.com/file/d/1WTYWj6j1cTxu9yZZCDUutzE2uXAf676x/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/11xPPfAzWLIq5s8G9aZvN0FlBFoKmwRQh/view?usp=sharing"
                   target='_blank'
                   rel='noopener noreferrer'
                   className="flex items-center gap-2 border border-purple-500 text-purple-300 hover:bg-purple-900/20 px-6 py-3 rounded-lg transition-all"

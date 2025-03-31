@@ -18,8 +18,8 @@ export default function About() {
               <p className="text-lg text-gray-300 leading-relaxed">
                 <span className="text-purple-300 font-semibold">Electronics engineer turned coder  </span> 
                 with a passion for solving real-world problems through clean code. 
-                My journey through <span className="text-purple-200">80+ LeetCode challenges</span> and 
-                <span className="text-purple-200"> 4 full-stack projects</span> has honed my ability to:
+                My journey through <span className="text-purple-200">100+ LeetCode challenges</span> and 
+                <span className="text-purple-200"> 4+ full-stack projects</span> has honed my ability to:
               </p>
               
               <ul className="list-disc list-inside text-gray-400 space-y-3 pl-4">
